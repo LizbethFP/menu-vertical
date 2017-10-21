@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  /*outline: 1px solid red; color para ver hasta dónde llega*/
+  width: 200px;
+}
+ul { /*bloque*/
+  /*outline: 1px solid yellow; color para ver hasta dónde llega*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+
+li {/*bloque*/
+  /*outline: 1px solid red; color para ver hasta dónde llega*/
+  background: #f5f5f0;
+}
+
+/*Estados de enlace: LoVe/HAte - Link, Visited, Hover y Active*/
+a { /*inline incorruptible, pero se cambia su naturaleza con display block*/
+  /*outline: 1px solid green; color para ver hasta dónde llega*/
+  /*width: 150px;
+  height: 20px;*/
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding-left: 10px;
+}
+
+a:hover {
+ background: #e0e0d1;
+}
+
+a:active {
+  background: #333;
+  color: #fff;
+}
+
+ul li:first-child {
+  background: #f9a91a;
+}
+
+ul li:first-child a {
+  color: #fff;
+}
+
+ul li:first-child a:hover {
+  color: #000;
+}
+
+ul li:first-child a:active {
+  color: #fff;
+}
